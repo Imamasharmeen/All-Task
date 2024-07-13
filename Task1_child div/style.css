@@ -1,0 +1,14 @@
+.parent{
+    padding: 25px;
+    background-color: aqua;
+    display: flex;
+    gap: 30px;
+}
+.child{
+    border: 2px solid rgb(19, 19, 3);
+    background-color: rgb(211, 102, 202);
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+   
+}

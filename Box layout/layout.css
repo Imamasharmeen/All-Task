@@ -1,0 +1,19 @@
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+div{
+    border: 1px solid black;
+}
+.row-1{
+    grid-row: span 5;
+}
+.row-11, .row-12{
+    grid-column: span 3;
+}
+.row-6, .row-7, .row-9, .row-10{
+    background-color: red;
+}
